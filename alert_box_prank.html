@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert Box Prank</title>
+    <script>
+        function showAlert() {
+            alert("Surprise! Click OK to see what happens next!");
+            showAlert(); // Recursively call the function to keep the alerts coming
+        }
+    </script>
+</head>
+<body onload="showAlert()">
+    <h1 style="text-align:center;">Welcome to the Alert Box Prank!</h1>
+</body>
+</html>
